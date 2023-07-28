@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="head_element">
+      <img src="Images/logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Furniture</a></li>
+          <li><a href="#">Armoires</a></li>
+          <li><a href="#">Study Table</a></li>
+          <li><a href="#">Plastic Chair</a></li>
+          <li><a href="#">War Drobes</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="parent">
+        <div class="content">
+          <button class="buy_now">Shop More</button>
+        </div>
+      </div>
+    </main>
+    <section class="special_category">
+      <div class="category_header">
+        <h2>Our Products</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="product-grid">
+        <!-- Row 1 -->
+        <div price="19" class="product-card">
+          <img src="Images/chair1.jpg" alt="Product 1" />
+          <h3>Flat</h3>
+          <p>$19</p>
+        </div>
+        <div price="24" class="product-card">
+          <img src="Images/chair2.jpg" alt="Product 2" />
+          <h3>Hybrid</h3>
+          <p>$24</p>
+        </div>
+        <div price="29" class="product-card">
+          <img src="Images/chair3.jpg" alt="Product 3" />
+          <h3>Shanon</h3>
+          <p>$29</p>
+        </div>
+        <div price="57" class="product-card">
+          <img src="Images/chair4.jpg" alt="Product 3" />
+          <h3>Lather</h3>
+          <p>$57</p>
+        </div>
+        <!-- Row 2 -->
+        <div price="19" class="product-card">
+          <img src="Images/chair1.jpg" alt="Product 1" />
+          <h3>Flat</h3>
+          <p>$19</p>
+        </div>
+        <div price="24" class="product-card">
+          <img src="Images/chair2.jpg" alt="Product 2" />
+          <h3>Hybrid</h3>
+          <p>$24</p>
+        </div>
+        <div price="29" class="product-card">
+          <img src="Images/chair3.jpg" alt="Product 3" />
+          <h3>Shanon</h3>
+          <p>$29</p>
+        </div>
+        <div price="57" class="product-card">
+          <img src="Images/chair4.jpg" alt="Product 3" />
+          <h3>Lather</h3>
+          <p>$57</p>
+        </div>
+
+        <!-- Row 3 -->
+        <div price="19" class="product-card">
+          <img src="Images/chair1.jpg" alt="Product 1" />
+          <h3>Flat</h3>
+          <p>$19</p>
+        </div>
+        <div price="24" class="product-card">
+          <img src="Images/chair2.jpg" alt="Product 2" />
+          <h3>Hybrid</h3>
+          <p>$24</p>
+        </div>
+        <div price="29" class="product-card">
+          <img src="Images/chair3.jpg" alt="Product 3" />
+          <h3>Shanon</h3>
+          <p>$29</p>
+        </div>
+        <div price="57" class="product-card">
+          <img src="Images/chair4.jpg" alt="Product 3" />
+          <h3>Lather</h3>
+          <p>$57</p>
+        </div>
+      </div>
+      <div style="display: none;" id="cart_name">Yor Cart</div>
+      <div class="cart" id="cart">
+        <!-- Cart items will be dynamically added here -->
+        
+    </div>
+    <button id="showTotalBtn" style="display: none; font-size: 24px;">Show Total</button>
+    <div id="totalModal" class="modal">
+        <div class="modal-content" id="modal-content" style="display: none;">
+            <h2>Total Price</h2>
+            <p id="totalAmount">0.00</p>
+        </div>
+    </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
